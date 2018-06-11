@@ -1,0 +1,33 @@
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  /* background-image: url("https://source.unsplash.com/yuqwzT3C7yk"); */
+  background-size: cover;
+  background-color: #1a1a1a;
+}
+header {
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+.title-container {
+  font-weight: normal;
+  font-size: 20px;
+  color: #fafafa;
+}
+.menu {
+  color: #fafafa;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  /* border: 1px solid #fff; */
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+.menu a {
+  text-decoration: none;
+  color: #fafafa;
+}
