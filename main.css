@@ -1,78 +1,40 @@
 body {
-  font-family: 'Quicksand', sans-serif;
-}
-header {
-  font-family: 'Quicksand', sans-serif;
-  margin-top: 30px;
-  padding-bottom: 50px;
-  display: flex;
-  justify-content: center;
-}
-footer {
-  font-family: 'Quicksand', sans-serif;
-  padding-bottom: 10px;
-  display: flex;
-  justify-content: center;
-}
-nav {
-  padding-top: 100px;
-  padding-bottom: 150px;
-  display: flex;
-  justify-content: center;
-}
-h1 {
-  font-weight: normal;
-}
-hr {
-  color: #fafafa;
-}
-.section1 {
-  background-color: #1a1a1a;
-}
-.title-container {
-  font-weight: normal;
-  font-size: 20px;
-  color: #fafafa;
-}
-.footer-container {
-  font-weight: normal;
-  font-size: 10px;
-  color: #fafafa;
-}
-.menu {
-  color: #d4d4d4;
-  font-size: 30px;
-  /* border: 1px solid #fff; */
-  width: 900px;
-  display: flex;
-  justify-content: space-around;
-}
-.menu a {
-  text-decoration: none;
-  color: inherit;
-}
-.menu-items:hover {
-  filter: drop-shadow(0px 5px 9px #000000);
-  color: #fafafa;
-  animation-name: scale;
-  animation-duration: 200ms;
-  animation-fill-mode: forwards;
-}
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  background: #1a1a1a;
+  color: #fafafa; }
+  body header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center; }
+    body header .title-container .title h1 {
+      font-weight: normal; }
+    body header .title-container hr {
+      margin-top: -15px; }
+  body section nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 150px; }
+    body section nav .menu {
+      color: #d4d4d4;
+      font-size: 30px;
+      width: 900px;
+      display: flex;
+      justify-content: space-around; }
+      body section nav .menu a {
+        text-decoration: none;
+        color: inherit; }
+    body section nav .menu-items:hover {
+      filter: drop-shadow(0px 5px 9px #000000);
+      color: #fafafa;
+      animation-name: scale;
+      animation-duration: 200ms;
+      animation-fill-mode: forwards; }
 @keyframes scale {
   100% {
-    /* margin-top: 10px; */
-    transform: scale(1.1);
-  }
-}
-.github {
-  justify-content: center;
-  text-align: center;
-}
-.about {
-  justify-content: center;
-  text-align: center;
-}
-.contact {
-  justify-content: center;
-  text-align: center;
-}
+    transform: scale(1.1); } }
+
+/*# sourceMappingURL=main.css.map */
